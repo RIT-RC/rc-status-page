@@ -1,6 +1,6 @@
-# [📈 Live Status](https://upptime.github.io/upptime): <!--live status--> **🟩 All systems operational**
+# [📈 Live Status](https://rit-rc.github.io/rc-status-page/): <!--live status--> **🟩 All systems operational**
 
-This repository contains the open-source uptime monitor and status page for [Upptime](https://upptime.js.org), powered by [Upptime](https://github.com/upptime/upptime).
+This repository contains the open-source uptime monitor and status page for [RIT Research Computing](https://rit-rc.github.io/rc-status-page/), powered by [Upptime](https://github.com/upptime/upptime).
 
 [![Uptime CI](https://github.com/RIT-RC/rc-status-page/workflows/Uptime%20CI/badge.svg)](https://github.com/RIT-RC/rc-status-page/actions?query=workflow%3A%22Uptime+CI%22)
 [![Response Time CI](https://github.com/RIT-RC/rc-status-page/workflows/Response%20Time%20CI/badge.svg)](https://github.com/RIT-RC/rc-status-page/actions?query=workflow%3A%22Response+Time+CI%22)

@@ -56,7 +56,7 @@ workflowSchedule:
   # 3AM Every Day - 
   updates: "0 3 * * *"
   # Every 5 Minutes - Check endpoint statuses
-  uptime: "*/5 * * * *" # Every 5 Minutes
+  uptime: "*/5 * * * *"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain

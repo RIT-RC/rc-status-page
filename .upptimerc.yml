@@ -1,16 +1,45 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: RIT-RC # Your GitHub organization or username, where this repository lives
+repo: rc-status-page # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: RC Website
+    url: $URL_RC_WEBSITE
+    icon: https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png
+  - name: SPORC-Cluster
+    check: "tcp-ping"
+    url: $IP_SPORC_CLUSTER
+    port: 22
+    icon: https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png
+  - name: KGCOE-GitLab
+    check: "tcp-ping"
+    url: $IP_KGCOE_GITLAB
+    icon: https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png
+  - name: Mirrors
+    url: $URL_MIRRORS
+    icon: https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png
+  - name: RC Documentation
+    url: $URL_RC_DOCUMENTATION
+    __dangerous__insecure: true # Ignore SSL cert error
+    icon: https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png
+  - name: Open OnDemand
+    check: "tcp-ping"
+    url: $IP_OPEN_ONDEMAND
+    icon: https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png
+  - name: RC Ticketing
+    url: $URL_RC_TICKETING
+    icon: https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png
+  - name: Grafana
+    check: "tcp-ping"
+    url: $IP_GRAFANA
+    icon: https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png
+  - name: Virtualization
+    check: "tcp-ping"
+    url: $IP_VIRTUALIZATION
+    icon: https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png
+  - name: RC File Hosting
+    url: $URL_PEOPLE
+    icon: https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png
 
 workflowSchedule:
   # 12AM Every Day - Generate response time graphs
@@ -34,7 +63,8 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   #cname: demo.upptime.js.org
   baseUrl: /rc-status-page
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit_logo.svg
+  themeUrl: https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-rc-theme.css
   name: Research Computing Status Page
   introTitle: "**RIT Research Computing Status Page**"
   introMessage: This page will tell you the status of RC services. If you're having trouble with a service and the issue is **not** documented below, please contact us at [rc-help@rit.edu](mailto:rc-help@rit.edu).

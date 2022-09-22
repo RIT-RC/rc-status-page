@@ -65,6 +65,8 @@ status-website:
   baseUrl: /rc-status-page
   logoUrl: https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit_logo.svg
   themeUrl: https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-rc-theme.css
+  skipDescriptionUpdate: true
+  #skipHomepageUpdate: true
   name: Research Computing Status Page
   introTitle: "**RIT Research Computing Status Page**"
   introMessage: This page will tell you the status of RC services. If you're having trouble with a service and the issue is **not** documented below, please contact us at [rc-help@rit.edu](mailto:rc-help@rit.edu).

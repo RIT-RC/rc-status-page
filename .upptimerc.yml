@@ -12,20 +12,39 @@ sites:
   - name: Test Broken Site
     url: https://thissitedoesnotexist.koj.co
 
+workflowSchedule:
+  # 12AM Every Day - Generate response time graphs
+  graphs: "0 0 * * *"
+  # 11PM Every Day - Record response time of each endpoint
+  responseTime: "0 23 * * *"
+  # 1AM Every Day - Build and deploy website
+  # Also runs every time files change
+  staticSite: "0 1 * * *"
+  # 12AM Every Day - Update README
+  summary: "0 0 * * *"
+  # 12AM Every Saturday - Update to newest version of upptime
+  updateTemplate: "0 0 * * 6"
+  # 3AM Every Day - 
+  updates: "0 3 * * *"
+  # Every 5 Minutes - Check endpoint statuses
+  uptime: "*/5 * * * *" # Every 5 Minutes
+
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
+  #cname: demo.upptime.js.org
+  baseUrl: /rc-status-page
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: Research Computing Status Page
+  introTitle: "**RIT Research Computing Status Page**"
+  introMessage: This page will tell you the status of RC services. If you're having trouble with a service and the issue is **not** documented below, please contact us at [rc-help@rit.edu](mailto:rc-help@rit.edu).
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: Contact Us
+      href: mailto:rc-help@rit.edu
+    #- title: GitHub
+    #  href: https://github.com/$OWNER/$REPO
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration

@@ -1,3 +1,13 @@
+## Secrets
+
+URLs and IPs should be entered as GitHub [Repository Secrets](https://github.com/RIT-RC/rc-status-page/settings/secrets/actions). Click "New repository secret" to create a new one.
+
+The GitHub Personal Access Token is also a Repository Secret.
+
+Do not touch the Environment Secrets.
+
+Secrets can be referenced like this: `$<secret_name>`.
+
 ## Maintenance Windows
 
 Create an issue and tag it `maintenance`. The issue body needs to have:

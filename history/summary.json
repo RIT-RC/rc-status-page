@@ -77,19 +77,17 @@
     "icon": "https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png",
     "slug": "rc-documentation",
     "status": "up",
-    "uptime": "97.78%",
-    "uptimeDay": "97.78%",
-    "uptimeWeek": "97.78%",
-    "uptimeMonth": "97.78%",
-    "uptimeYear": "97.78%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 282,
     "timeDay": 282,
     "timeWeek": 282,
     "timeMonth": 282,
     "timeYear": 282,
-    "dailyMinutesDown": {
-      "2022-09-22": 15
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Open OnDemand",

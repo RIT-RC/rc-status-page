@@ -6,40 +6,71 @@ sites:
   - name: RC Website
     url: $URL_RC_WEBSITE
     icon: https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png
+    assignees:
+      - aweits
   - name: SPORC-Cluster
     check: "tcp-ping"
     url: $IP_SPORC_CLUSTER
     port: 22
     icon: https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png
+    assignees:
+      - EmilioD
+      - qwertos
+      - aweits
+      - paulmezz
+      - meyersbs
+      - kirkmanne
+      - sidpbury
+      - archxlith
+      - merced317
+      - "rc-admins"
   - name: KGCOE-GitLab
     check: "tcp-ping"
     url: $IP_KGCOE_GITLAB
     icon: https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png
+    assignees:
+      - qwertos
   - name: Mirrors
     url: $URL_MIRRORS
     icon: https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png
+    assignees:
+      - paulmezz
   - name: RC Documentation
     url: $URL_RC_DOCUMENTATION
     __dangerous__insecure: true # Ignore SSL cert error
     icon: https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png
+    assignees:
+      - meyersbs
   - name: Open OnDemand
     check: "tcp-ping"
     url: $IP_OPEN_ONDEMAND
     icon: https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png
+    assignees:
+      - EmilioD
   - name: RC Ticketing
     url: $URL_RC_TICKETING
     icon: https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png
+    assignees:
+      - EmilioD
+      - qwertos
+      - meyersbs
   - name: Grafana
     check: "tcp-ping"
     url: $IP_GRAFANA
     icon: https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png
+    assignees:
+      - EmilioD
   - name: Virtualization
     check: "tcp-ping"
     url: $IP_VIRTUALIZATION
     icon: https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png
+    assignees:
+      - EmilioD
   - name: RC File Hosting
     url: $URL_PEOPLE
     icon: https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png
+    assignees:
+      - paulmezz
 
 workflowSchedule:
   # 12AM Every Day - Generate response time graphs

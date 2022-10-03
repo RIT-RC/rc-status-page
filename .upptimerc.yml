@@ -38,6 +38,7 @@ sites:
   - name: RC Documentation
     url: $URL_RC_DOCUMENTATION
     __dangerous__insecure: true # Ignore SSL cert error
+    maxResponseTime: 60000
     icon: https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png
     assignees:
       - meyersbs

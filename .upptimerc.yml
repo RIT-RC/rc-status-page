@@ -97,6 +97,7 @@ status-website:
   baseUrl: /rc-status-page
   logoUrl: https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit_logo.svg
   themeUrl: https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-rc-theme.css
+  favicon: https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png
   skipDescriptionUpdate: true
   #skipHomepageUpdate: true
   name: Research Computing Status Page

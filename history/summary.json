@@ -4,19 +4,19 @@
     "url": "$URL_RC_WEBSITE",
     "icon": "https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png",
     "slug": "rc-website",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 280,
-    "timeDay": 253,
-    "timeWeek": 297,
-    "timeMonth": 280,
-    "timeYear": 280,
+    "status": "up",
+    "uptime": "99.94%",
+    "uptimeDay": "98.38%",
+    "uptimeWeek": "99.77%",
+    "uptimeMonth": "99.94%",
+    "uptimeYear": "99.94%",
+    "time": 300,
+    "timeDay": 622,
+    "timeWeek": 384,
+    "timeMonth": 300,
+    "timeYear": 300,
     "dailyMinutesDown": {
-      "2022-10-20": 0
+      "2022-10-20": 23
     }
   },
   {

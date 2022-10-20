@@ -4,7 +4,7 @@
     "url": "$URL_RC_WEBSITE",
     "icon": "https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png",
     "slug": "rc-website",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -15,7 +15,9 @@
     "timeWeek": 297,
     "timeMonth": 280,
     "timeYear": 280,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-10-20": 0
+    }
   },
   {
     "name": "SPORC-Cluster",
@@ -77,11 +79,11 @@
     "icon": "https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png",
     "slug": "rc-documentation",
     "status": "up",
-    "uptime": "99.65%",
+    "uptime": "99.66%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.65%",
-    "uptimeYear": "99.65%",
+    "uptimeMonth": "99.66%",
+    "uptimeYear": "99.66%",
     "time": 1163,
     "timeDay": 266,
     "timeWeek": 553,

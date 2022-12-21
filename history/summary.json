@@ -80,9 +80,9 @@
     "slug": "rc-documentation",
     "status": "up",
     "uptime": "99.63%",
-    "uptimeDay": "98.37%",
-    "uptimeWeek": "99.77%",
-    "uptimeMonth": "99.82%",
+    "uptimeDay": "98.84%",
+    "uptimeWeek": "99.83%",
+    "uptimeMonth": "99.83%",
     "uptimeYear": "99.63%",
     "time": 671,
     "timeDay": 242,
@@ -90,7 +90,7 @@
     "timeMonth": 585,
     "timeYear": 671,
     "dailyMinutesDown": {
-      "2022-12-21": 24,
+      "2022-12-21": 17,
       "2022-11-25": 56,
       "2022-11-20": 20,
       "2022-11-19": 19,
@@ -109,9 +109,9 @@
     "url": "$IP_OPEN_ONDEMAND",
     "icon": "https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png",
     "slug": "open-on-demand",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -120,7 +120,9 @@
     "timeWeek": 38,
     "timeMonth": 45,
     "timeYear": 43,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-12-21": 0
+    }
   },
   {
     "name": "RC Ticketing",

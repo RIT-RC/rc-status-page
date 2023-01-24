@@ -33,6 +33,7 @@ sites:
   - name: Mirrors
     url: $URL_MIRRORS
     icon: https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png
+    maxResponseTime: 60000
     assignees:
       - paulmezz
   - name: RC Documentation

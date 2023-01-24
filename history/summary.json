@@ -63,19 +63,19 @@
     "url": "$URL_MIRRORS",
     "icon": "https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png",
     "slug": "mirrors",
-    "status": "up",
-    "uptime": "99.99%",
-    "uptimeDay": "98.71%",
-    "uptimeWeek": "99.82%",
-    "uptimeMonth": "99.96%",
-    "uptimeYear": "99.99%",
+    "status": "down",
+    "uptime": "99.98%",
+    "uptimeDay": "97.87%",
+    "uptimeWeek": "99.70%",
+    "uptimeMonth": "99.93%",
+    "uptimeYear": "99.98%",
     "time": 247,
     "timeDay": 180,
     "timeWeek": 227,
     "timeMonth": 245,
     "timeYear": 247,
     "dailyMinutesDown": {
-      "2023-01-24": 19
+      "2023-01-24": 31
     }
   },
   {

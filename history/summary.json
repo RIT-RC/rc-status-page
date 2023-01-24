@@ -63,9 +63,9 @@
     "url": "$URL_MIRRORS",
     "icon": "https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png",
     "slug": "mirrors",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -74,7 +74,9 @@
     "timeWeek": 233,
     "timeMonth": 247,
     "timeYear": 248,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-01-24": 0
+    }
   },
   {
     "name": "RC Documentation",
@@ -85,12 +87,12 @@
     "uptime": "99.58%",
     "uptimeDay": "98.28%",
     "uptimeWeek": "99.75%",
-    "uptimeMonth": "99.46%",
+    "uptimeMonth": "99.52%",
     "uptimeYear": "99.58%",
     "time": 765,
     "timeDay": 3218,
-    "timeWeek": 1131,
-    "timeMonth": 957,
+    "timeWeek": 1288,
+    "timeMonth": 889,
     "timeYear": 765,
     "dailyMinutesDown": {
       "2023-01-23": 25,
@@ -122,11 +124,11 @@
     "icon": "https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png",
     "slug": "open-on-demand",
     "status": "up",
-    "uptime": "99.30%",
+    "uptime": "99.31%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "97.66%",
-    "uptimeYear": "99.30%",
+    "uptimeYear": "99.31%",
     "time": 43,
     "timeDay": 20,
     "timeWeek": 43,

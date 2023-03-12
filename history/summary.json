@@ -87,12 +87,12 @@
     "status": "up",
     "uptime": "99.60%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.55%",
+    "uptimeWeek": "99.75%",
     "uptimeMonth": "99.71%",
     "uptimeYear": "99.60%",
     "time": 687,
     "timeDay": 135,
-    "timeWeek": 260,
+    "timeWeek": 259,
     "timeMonth": 643,
     "timeYear": 687,
     "dailyMinutesDown": {
@@ -134,11 +134,11 @@
     "icon": "https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png",
     "slug": "open-on-demand",
     "status": "up",
-    "uptime": "99.49%",
+    "uptime": "99.50%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.49%",
+    "uptimeYear": "99.50%",
     "time": 44,
     "timeDay": 20,
     "timeWeek": 27,
@@ -214,9 +214,9 @@
     "url": "$URL_PEOPLE",
     "icon": "https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png",
     "slug": "rc-file-hosting",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -225,6 +225,8 @@
     "timeWeek": 168,
     "timeMonth": 216,
     "timeYear": 202,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-03-12": 0
+    }
   }
 ]

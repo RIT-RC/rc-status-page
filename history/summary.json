@@ -160,19 +160,19 @@
     "url": "$URL_RC_TICKETING",
     "icon": "https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png",
     "slug": "rc-ticketing",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 298,
-    "timeDay": 291,
-    "timeWeek": 348,
-    "timeMonth": 289,
-    "timeYear": 298,
+    "status": "up",
+    "uptime": "99.96%",
+    "uptimeDay": "91.97%",
+    "uptimeWeek": "98.85%",
+    "uptimeMonth": "99.74%",
+    "uptimeYear": "99.96%",
+    "time": 297,
+    "timeDay": 244,
+    "timeWeek": 324,
+    "timeMonth": 285,
+    "timeYear": 297,
     "dailyMinutesDown": {
-      "2023-03-28": 0
+      "2023-03-28": 116
     }
   },
   {

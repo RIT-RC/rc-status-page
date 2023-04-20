@@ -13,7 +13,7 @@
     "time": 384,
     "timeDay": 148,
     "timeWeek": 1214,
-    "timeMonth": 654,
+    "timeMonth": 669,
     "timeYear": 384,
     "dailyMinutesDown": {
       "2023-01-03": 31,
@@ -34,7 +34,7 @@
     "time": 45,
     "timeDay": 20,
     "timeWeek": 36,
-    "timeMonth": 48,
+    "timeMonth": 49,
     "timeYear": 45,
     "dailyMinutesDown": {}
   },
@@ -52,7 +52,7 @@
     "time": 46,
     "timeDay": 20,
     "timeWeek": 36,
-    "timeMonth": 48,
+    "timeMonth": 49,
     "timeYear": 46,
     "dailyMinutesDown": {
       "2023-03-16": 291,
@@ -73,7 +73,7 @@
     "time": 252,
     "timeDay": 193,
     "timeWeek": 232,
-    "timeMonth": 255,
+    "timeMonth": 260,
     "timeYear": 252,
     "dailyMinutesDown": {
       "2023-01-25": 18,
@@ -86,18 +86,17 @@
     "icon": "https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png",
     "slug": "rc-documentation",
     "status": "up",
-    "uptime": "99.54%",
-    "uptimeDay": "99.02%",
-    "uptimeWeek": "99.86%",
-    "uptimeMonth": "99.78%",
-    "uptimeYear": "99.54%",
+    "uptime": "99.55%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "99.82%",
+    "uptimeYear": "99.55%",
     "time": 646,
     "timeDay": 179,
     "timeWeek": 256,
-    "timeMonth": 461,
+    "timeMonth": 466,
     "timeYear": 646,
     "dailyMinutesDown": {
-      "2023-04-19": 14,
       "2023-04-12": 18,
       "2023-04-04": 17,
       "2023-04-03": 28,
@@ -150,7 +149,7 @@
     "time": 45,
     "timeDay": 20,
     "timeWeek": 36,
-    "timeMonth": 48,
+    "timeMonth": 49,
     "timeYear": 45,
     "dailyMinutesDown": {
       "2023-01-04": 951,
@@ -173,7 +172,7 @@
     "time": 294,
     "timeDay": 152,
     "timeWeek": 229,
-    "timeMonth": 276,
+    "timeMonth": 279,
     "timeYear": 294,
     "dailyMinutesDown": {
       "2023-03-28": 116
@@ -193,7 +192,7 @@
     "time": 45,
     "timeDay": 20,
     "timeWeek": 36,
-    "timeMonth": 48,
+    "timeMonth": 49,
     "timeYear": 45,
     "dailyMinutesDown": {
       "2022-12-20": 16
@@ -213,7 +212,7 @@
     "time": 46,
     "timeDay": 20,
     "timeWeek": 36,
-    "timeMonth": 50,
+    "timeMonth": 51,
     "timeYear": 46,
     "dailyMinutesDown": {
       "2022-10-21": 21
@@ -233,7 +232,7 @@
     "time": 205,
     "timeDay": 129,
     "timeWeek": 191,
-    "timeMonth": 213,
+    "timeMonth": 216,
     "timeYear": 205,
     "dailyMinutesDown": {
       "2023-03-12": 344

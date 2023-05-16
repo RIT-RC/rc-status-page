@@ -25,9 +25,9 @@
     "url": "$IP_SPORC_CLUSTER",
     "icon": "https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png",
     "slug": "sporc-cluster",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -36,7 +36,9 @@
     "timeWeek": 45,
     "timeMonth": 40,
     "timeYear": 45,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-05-16": 0
+    }
   },
   {
     "name": "KGCOE-GitLab",
@@ -93,7 +95,7 @@
     "uptimeYear": "99.60%",
     "time": 629,
     "timeDay": 223,
-    "timeWeek": 484,
+    "timeWeek": 510,
     "timeMonth": 444,
     "timeYear": 629,
     "dailyMinutesDown": {

@@ -52,7 +52,7 @@
     "time": 45,
     "timeDay": 85,
     "timeWeek": 52,
-    "timeMonth": 43,
+    "timeMonth": 44,
     "timeYear": 45,
     "dailyMinutesDown": {
       "2023-05-18": 193,
@@ -74,7 +74,7 @@
     "time": 249,
     "timeDay": 410,
     "timeWeek": 258,
-    "timeMonth": 233,
+    "timeMonth": 235,
     "timeYear": 249,
     "dailyMinutesDown": {
       "2023-01-25": 18,
@@ -86,18 +86,19 @@
     "url": "$URL_RC_DOCUMENTATION",
     "icon": "https://cdn.statically.io/gh/rit-rc/rc-status-page/master/assets/rit-favicon.png",
     "slug": "rc-documentation",
-    "status": "up",
+    "status": "down",
     "uptime": "99.55%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.44%",
     "uptimeYear": "99.55%",
     "time": 626,
-    "timeDay": 336,
+    "timeDay": 524,
     "timeWeek": 652,
-    "timeMonth": 508,
+    "timeMonth": 513,
     "timeYear": 626,
     "dailyMinutesDown": {
+      "2023-05-26": 0,
       "2023-05-18": 230,
       "2023-05-13": 16,
       "2023-04-12": 18,
@@ -152,7 +153,7 @@
     "time": 45,
     "timeDay": 87,
     "timeWeek": 51,
-    "timeMonth": 43,
+    "timeMonth": 44,
     "timeYear": 45,
     "dailyMinutesDown": {
       "2023-05-16": 34,
@@ -176,7 +177,7 @@
     "time": 289,
     "timeDay": 475,
     "timeWeek": 303,
-    "timeMonth": 267,
+    "timeMonth": 270,
     "timeYear": 289,
     "dailyMinutesDown": {
       "2023-03-28": 116
@@ -196,7 +197,7 @@
     "time": 45,
     "timeDay": 83,
     "timeWeek": 51,
-    "timeMonth": 44,
+    "timeMonth": 45,
     "timeYear": 45,
     "dailyMinutesDown": {
       "2022-12-20": 16
@@ -216,7 +217,7 @@
     "time": 45,
     "timeDay": 84,
     "timeWeek": 51,
-    "timeMonth": 44,
+    "timeMonth": 45,
     "timeYear": 45,
     "dailyMinutesDown": {
       "2022-10-21": 21
@@ -236,7 +237,7 @@
     "time": 205,
     "timeDay": 322,
     "timeWeek": 241,
-    "timeMonth": 203,
+    "timeMonth": 207,
     "timeYear": 205,
     "dailyMinutesDown": {
       "2023-03-12": 344

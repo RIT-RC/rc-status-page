@@ -1,7 +1,7 @@
 url: $IP_SPORC_CLUSTER
 status: up
 code: 200
-responseTime: 16
-lastUpdated: 2023-12-24T23:14:38.231Z
+responseTime: 85
+lastUpdated: 2023-12-25T23:14:56.968Z
 startTime: 2022-09-22T12:53:44.000Z
 generator: Upptime <https://github.com/upptime/upptime>
